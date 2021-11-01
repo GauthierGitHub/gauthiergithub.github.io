@@ -1,5 +1,4 @@
 <?php
-var_dump($_POST);
-$contents = file_get_contents('gitpull.sh');
+$contents = file_get_contents(__DIR__ .'/gitpull.sh');
 echo shell_exec($contents);
 ?>
