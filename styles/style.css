@@ -31,6 +31,10 @@ body.container {
     /* default bootstrap -> max-width: 1320px; */
 }
 
+#html2image {
+    display: none;
+}
+
 /*TITLES, HYPERLINKS ...*/
 
 h1, h2, h3 {
