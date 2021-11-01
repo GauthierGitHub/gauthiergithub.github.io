@@ -1,5 +1,5 @@
 $("#print-btn").click(function () {
-    var url = "http://ec2-15-188-119-107.eu-west-3.compute.amazonaws.com/cv_html_css/";
+    var url = "http://ec2-15-188-119-107.eu-west-3.compute.amazonaws.com/cv/";
     //api.apiflash.com
     $.ajax({
         type: "GET",
