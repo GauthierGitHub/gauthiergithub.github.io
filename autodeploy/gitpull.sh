@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ../cv;
+cd ..;
 git pull;
