@@ -1,0 +1,156 @@
+/**********
+* GENERAL *
+**********/
+
+/*FONTS*/
+
+@font-face {
+    font-family: Nanum_Gothic_Coding;
+    src: url("./../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nanum_Gothic_Coding_Bold;
+    src: url("./../fonts/Nanum_Gothic_Coding/NanumGothicCoding-Bold.ttf");
+    font-weight: bold;
+}
+
+/*GENERAL*/
+
+* {
+    font-family: Nanum_Gothic_Coding, Avenir, sans-serif;
+    color: #c4dbff;
+}
+
+html {
+    background-color: #121212;
+}
+
+body.container {
+    background-color: #121212;
+    /* default bootstrap -> max-width: 1320px; */
+}
+
+/*TITLES, HYPERLINKS ...*/
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #D0965C;
+}
+
+h2 {
+    margin: 30px 0 20px 0;
+}
+
+h4 {
+    color: #4E749C;
+}
+
+a {
+    text-decoration: none;
+    color: #D0965C;
+}
+
+a:hover {
+    color: #4E749C;
+}
+
+/***********
+* SECTIONS *
+************/
+
+/*HEADER*/
+
+#contact-header {
+    font-weight: bold;
+    background-image: url("./../images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#contact-header img {
+    max-width: 125px;
+    height: 125px;
+    max-height: 125px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+}
+
+/*CONTACT DETAIL*/
+
+#contact-detail {
+    background-color: rgb(46, 45, 45);
+}
+
+#social-icons img {
+    filter: invert(1);
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0 20px 0 20px;
+}
+
+.progress {
+    background-color: #a7a7a7;
+    margin: 20px;
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: #4E749C;
+    margin: 3px;
+}
+
+.date {
+    font-style: italic;
+}
+
+/*EXPERIENCE*/
+
+#experiences-formations ul {
+    list-style: none;
+    padding: 0;
+}
+
+#experiences-formations ul li::before {
+    content: "\>";
+    color: #D0965C;
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    margin-left: -1em;
+}
+
+.experience-box {
+    box-shadow: grey 0px 30px 40px -2em inset;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.experience-box img {
+    margin-bottom: 10px;
+    width: 75px;
+    max-width: 75px;
+}
+
+.experience-box hr {
+    border-top: 2px solid #4E749C;
+    opacity: 1;
+}
+
+.job-description {
+    border-right: 3px dotted orange;
+}
+
+.job-description h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*EDUCATION*/
+
+.education-box h5 {
+    color: orange;
+    font-weight: bold;
+}
