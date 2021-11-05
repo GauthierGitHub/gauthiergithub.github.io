@@ -1,4 +1,3 @@
 #!/bin/bash
-whoami;
 cd ..;
-git pull;
+sudo git pull;
