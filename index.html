@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -9,22 +10,36 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/style.css">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <!-- Custom js -->
+    <script src="scripts/script.js"></script>
 </head>
 
 <body class="container">
 
-    <header id="contact-header" class="row">
-        <div class="d-flex justify-content-center">
-            <img src="images/profil.jpg " alt="Gauthier Barbet profil picture ">
-            <div class="align-self-lg-center ms-3">
-                <h1>Gauthier Barbet</h1>
-                <h2>Fullstack Developer</h2>
-            </div>
-        </div>
-    </header>
-
     <div id="content" class="row text-center">
         <section id="contact-detail" class="col-md-3 col-sm-12 pb-3">
+
+            <header id="contact-header" class="row">
+                <div class="col-12">
+                    <img src="images/profil.jpg " alt="Gauthier Barbet profil picture ">
+                </div>
+                <div class="col-12">
+                    <h1>Gauthier Barbet</h1>
+                    <h3>Fullstack Developer</h2>
+                </div>
+            </header>
 
             <h2>Who am I ?</h2>
             <p>
@@ -33,7 +48,7 @@
                 I successfully undertook a
                 professional retraining in application development.
             </p>
-            <p>36 years old</p>
+            <p>38 years old</p>
             <p>French : native</p>
             <p>English : fluent</p>
             <p>Spanish : notions</p>
@@ -59,30 +74,33 @@
             <h2>Skills</h2>
             <section id="skills">
                 <div class="progress">
-                    <div class="progress-bar w-75" role="progressbar">PHP7</div>
+                    <div class="progress-bar w-100" role="progressbar">Angular 2+</div>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar w-75" role="progressbar">JavaScript</div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar w-75" role="progressbar">HTML / CSS</div>
+                    <div class="progress-bar w-75" role="progressbar">Node.js</div>
                 </div>
                 <div class="progress">
                     <div class="progress-bar w-75" role="progressbar">SQL</div>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar w-50" role="progressbar">Angular 2+</div>
+                    <div class="progress-bar w-75" role="progressbar">MongoDB</div>
                 </div>
                 <div class="progress">
-                    <div class="progress-bar w-50" role="progressbar">Symfony 4</div>
+                    <div class="progress-bar w-100" role="progressbar">JavaScript</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar w-75" role="progressbar">PHP7</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar w-100" role="progressbar">HTML / CSS</div>
                 </div>
             </section>
 
             <h2>Interest</h2>
             <section id="interest">
                 <p>Chess</p>
-                <p>Sports</p>
                 <p>Archeology</p>
+                <p>Martial arts</p>
                 <p>History</p>
             </section>
 
@@ -96,27 +114,53 @@
 
                 <div class="experience-box row">
                     <article class="job-description col-6 text-center">
-                        <a href="https://www.synkso.com"><img src="images/synkso.png " alt="Synkso "></a>
+                        <a href="https://www.kwote.fr"><img src="images/kwote_logo.png " alt="Synkso "></a>
                         <div>
-                            <h4>Web Developer</h4>
-                            <p class="date">Sep 2020 - Present</p>
+                            <h4>Full-Stack / DevOps Developer</h4>
+                            <p class="date">Nov 2022 - Nov 2023</p>
                             <hr />
                             <ul>
-                                <li>Specifications, design, dev, tests, deliveries, technical support, project management.</li>
+                                <li>Specifications, design, dev, tests, deliveries, technical support, project
+                                    management.</li>
                             </ul>
                         </div>
                     </article>
                     <div class="col-6">
                         <h4>Technical stack</h4>
                         <ul class="row">
+                            <li class="col-6">Node.js</li>
+                            <li class="col-6">MariaDb</li>
+                            <li class="col-6">MongoDB</li>
+                            <li class="col-6">Angular</li>
+                            <li class="col-6">Gitlab CI/CD</li>
+                            <li class="col-6">SCRUM</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-box row">
+                    <article class="job-description col-6 text-center">
+                        <a href="https://www.synkso.com"><img src="images/synkso.png " alt="Synkso "></a>
+                        <div>
+                            <h4>Web Developer</h4>
+                            <p class="date">Sep 2020 - Present</p>
+                            <hr />
+                            <ul>
+                                <li>Specifications, design, dev, tests, deliveries, technical support, project
+                                    management, server maintenance / setup.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <div class="col-6">
+                        <h4>Technical stack</h4>
+                        <ul class="row">
+                            <li class="col-6">PHP7 / HTML / CSS / JS</li>
                             <li class="col-6">REST Webservice C#</li>
                             <li class="col-6">SQL Server / MySQL</li>
                             <li class="col-6">Apache2 / IIS</li>
-                            <li class="col-6">Windows Server</li>
-                            <li class="col-6">PHP7 / HTML / CSS / JS</li>
+                            <li class="col-6">PowerShell</li>
                             <li class="col-6">JQuery / Bootstrap / AJAX</li>
-                            <li class="col-6">Jira / Confluence / BitBucket</li>
-                            <li class="col-6">Agile / SCRUM / Prince 2</li>
+                            <li class="col-6">Atlassian Suite</li>
                         </ul>
                     </div>
                 </div>
@@ -125,7 +169,7 @@
                     <article class="job-description col-6 text-center">
                         <a href="https://www.iter.org"><img src="images/iter.png " alt="Synkso "></a>
                         <div>
-                            <h4>Web Developer<br /> 
+                            <h4>Web Developer<br />
                                 Software engineer
                             </h4>
                             <p class="date">
@@ -134,25 +178,25 @@
                             </p>
                             <hr />
                             <ul>
-                                <li>Specifications, design, dev, tests, deliveries, technical support, project management.</li>
+                                <li>Specifications, design, dev, tests, deliveries, technical support, project
+                                    management, server maintenance / setup.</li>
                             </ul>
                         </div>
                     </article>
                     <div class="col-6">
                         <h4>Technical stack</h4>
                         <ul class="row">
+                            <li class="col-6">PHP7 / HTML / CSS / JS</li>
+                            <li class="col-6">JQuery / Bootstrap / AJAX</li>
+                            <li class="col-6">Shell / PowerShell</li>
+                            <li class="col-6">SQL Server / MySQL</li>
+                            <li class="col-6">Atlassian Suite</li>
                             <li class="col-6">e2e Java / Maven</li>
                             <li class="col-6">JUnit / Selenium</li>
-                            <li class="col-6">SQL Server / MySQL</li>
                             <li class="col-6">Apache2 / IIS</li>
                             <li class="col-6">Windows Server / Ubuntu & CentOS Server</li>
                             <li class="col-6">AWS EC2 / OVH Cloud</li>
-                            <li class="col-6">XSLT</li>
-                            <li class="col-6">PHP7 / HTML / CSS / JS</li>
-                            <li class="col-6">JQuery / Bootstrap / AJAX</li>
-                            <li class="col-6">Jira / Confluence / BitBucket</li>
-                            <li class="col-6">Git</li>
-                            <li class="col-6">Agile</li>
+                            <li class="col-6">Prince 2 project management</li>
                         </ul>
                     </div>
                 </div>
@@ -191,7 +235,8 @@
 
                 <div class="experience-box row">
                     <article class="job-description col-6 text-center">
-                        <a href="https://www.crous-aix-marseille.fr/"><img src="images/Logo_Crous.png " alt="Synkso "></a>
+                        <a href="https://www.crous-aix-marseille.fr/">
+                            <img src="images/Logo_Crous.png " alt="Synkso "></a>
                         <div>
                             <h4>Team Leader</h4>
                             <p class="date">Sep 2013 – Dec 2019</p>
@@ -265,21 +310,5 @@
 
 
 </body>
-
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
-<!-- JQuery -->
-<script src="libs/jquery-3.6.0.min.js"></script>
-<!-- Custom js -->
-<script src="scripts/script.js"></script>
 
 </html>

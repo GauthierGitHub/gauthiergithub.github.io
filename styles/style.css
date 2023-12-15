@@ -19,15 +19,15 @@
 
 * {
     font-family: Nanum_Gothic_Coding, Avenir, sans-serif;
-    color: #c4dbff;
+    color: #02132e;
 }
 
 html {
-    background-color: #121212;
+    background-color: #b2b6ca;
 }
 
 body.container {
-    background-color: #121212;
+    /* background-color: #121212; */
     /* default bootstrap -> max-width: 1320px; */
 }
 
@@ -67,10 +67,10 @@ a:hover {
 
 #contact-header {
     font-weight: bold;
-    background-image: url("./../images/bg2.jpg");
+    /* background-image: url("./../images/bg2.jpg"); */
     background-size: cover;
     background-repeat: no-repeat, repeat;
-    background-color: rgba(255, 255, 255, 0.25);
+    /* background-color: rgba(255, 255, 255, 0.25); */
 }
 
 #contact-header img {
@@ -85,7 +85,7 @@ a:hover {
 /*CONTACT DETAIL*/
 
 #contact-detail {
-    background-color: rgb(46, 45, 45);
+    /* background-color: rgb(46, 45, 45); */
 }
 
 #social-icons img {
@@ -97,12 +97,14 @@ a:hover {
 
 .progress {
     background-color: #a7a7a7;
+    border-radius: 12px;
     margin: 20px;
     height: 30px;
 }
 
 .progress-bar {
     background-color: #4E749C;
+    border-radius: 12px;
     margin: 3px;
 }
 
