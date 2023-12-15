@@ -23,7 +23,7 @@
 }
 
 html {
-    background-color: #b2b6ca;
+    background-color: #d0965c52;
 }
 
 body.container {
@@ -37,13 +37,15 @@ body.container {
 
 /*TITLES, HYPERLINKS ...*/
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: bold;
     color: #D0965C;
 }
 
 h2 {
-    margin: 30px 0 20px 0;
+    margin: 30px 0 15px 0;
 }
 
 h4 {
@@ -89,10 +91,16 @@ a:hover {
 }
 
 #social-icons img {
-    filter: invert(1);
+    /* For dark mode - turn black to white */
+    /* filter: invert(1); */
     max-width: 50px;
     max-height: 50px;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
+}
+
+#contact-detail ul {
+    padding: 0;
+    list-style-type: none;
 }
 
 .progress {
@@ -136,8 +144,9 @@ a:hover {
 
 .experience-box img {
     margin-bottom: 10px;
-    width: 75px;
-    max-width: 75px;
+    /* width: 75px;
+    max-width: 75px; */
+    height: 50px;
 }
 
 .experience-box hr {
@@ -149,7 +158,7 @@ a:hover {
     border-right: 3px dotted orange;
 }
 
-.job-description h4{
+.job-description h4 {
     font-size: 20px;
     font-weight: bold;
 }

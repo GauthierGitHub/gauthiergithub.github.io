@@ -1,0 +1,15 @@
+Developpeur FULLSTACK / DevOps à Kwote
+• Conception, developpement et maintenance d'API (Node.js - Angular 2+)
+• Tests unitaires / tests d'intégrations / tests e2e
+• Projet BI
+•  gestion de la base de donné hibernate / Spring
+
+Developpeur en mission à ITER Organization
+• Conception, developpement et maintenance de l'intranet et de la constellation de sites web d'ITER
+• Configuration et mise en service de solutions "on premise"
+• Gestion de projet IT sur le modèle PRINCE II
+• Tests unitaires / tests d'intégrations / tests e2e
+
+Developpeur FULLSTACK à Synkso
+• Conception, developpement et maintenance d'API (C# / PHP - Smarty / HTML+JS)
+• Gestion de projet 
