@@ -23,12 +23,12 @@
 }
 
 html {
-    background-color: #d0965c52;
+    background-color: #4e749c25;
 }
 
 body.container {
-    /* background-color: #121212; */
     /* default bootstrap -> max-width: 1320px; */
+    background-color: #4e749c11;
 }
 
 #html2image {
@@ -38,10 +38,14 @@ body.container {
 /*TITLES, HYPERLINKS ...*/
 
 h1,
-h2,
 h3 {
     font-weight: bold;
-    color: #D0965C;
+    color: #4E749C;
+}
+
+h2 {
+    font-weight: bold;
+    color: #e9621ec2;
 }
 
 h2 {
@@ -54,7 +58,7 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #D0965C;
+    color: #e9621ec2;
 }
 
 a:hover {
@@ -69,13 +73,14 @@ a:hover {
 
 #contact-header {
     font-weight: bold;
-    /* background-image: url("./../images/bg2.jpg"); */
     background-size: cover;
     background-repeat: no-repeat, repeat;
+    /* background-image: url("./../images/bg2.jpg"); */
     /* background-color: rgba(255, 255, 255, 0.25); */
 }
 
 #contact-header img {
+    margin: 15px 0 15px 0;
     max-width: 125px;
     height: 125px;
     max-height: 125px;
@@ -114,6 +119,7 @@ a:hover {
     background-color: #4E749C;
     border-radius: 12px;
     margin: 3px;
+    font-size: 18px;
 }
 
 .date {
@@ -129,7 +135,7 @@ a:hover {
 
 #experiences-formations ul li::before {
     content: "\>";
-    color: #D0965C;
+    color: #4E749C;
     font-weight: bold;
     display: inline-block;
     width: 2em;
@@ -137,7 +143,7 @@ a:hover {
 }
 
 .experience-box {
-    box-shadow: grey 0px 30px 40px -2em inset;
+    box-shadow: #4e749c80 0px 30px 40px -2em inset;
     padding-top: 15px;
     margin-bottom: 15px;
 }
@@ -150,12 +156,12 @@ a:hover {
 }
 
 .experience-box hr {
-    border-top: 2px solid #4E749C;
+    border-top: 2px solid #e9621ec2;
     opacity: 1;
 }
 
 .job-description {
-    border-right: 3px dotted orange;
+    border-right: 3px dotted #e9621ec2;
 }
 
 .job-description h4 {
@@ -166,6 +172,6 @@ a:hover {
 /*EDUCATION*/
 
 .education-box h5 {
-    color: orange;
+    color: #4E749C;
     font-weight: bold;
 }
