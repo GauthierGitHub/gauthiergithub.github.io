@@ -133,13 +133,18 @@ a:hover {
     padding: 0;
 }
 
-#experiences-formations ul li::before {
+.job-description li {
+    display: inline;
+}
+
+.experience-description ul li::before {
     content: "\>";
     color: #4E749C;
     font-weight: bold;
     display: inline-block;
     width: 2em;
     margin-left: -1em;
+    padding: 0 1em 0 1em;
 }
 
 .experience-box {

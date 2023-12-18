@@ -7,12 +7,14 @@ Developpeur FULLSTACK / DevOps à Kwote
 
 Developpeur en mission à ITER Organization
 • Conception, developpement et maintenance de l'intranet et de la constellation de sites web d'ITER
+• mise en place et maintenance de serveur Apache2 & IIS 
 • Configuration et mise en service de solutions "on premise"
 • Gestion de projet IT sur le modèle PRINCE II
 • Tests unitaires / tests d'intégrations / tests e2e
 
 Developpeur FULLSTACK à Synkso
 • Conception, developpement et maintenance d'API (C# / PHP - Smarty / HTML+JS)
+• mise en place et maintenance de serveur Apache2 & IIS
 • Gestion de projet 
 
 Manager chef d'équipe au CROUS
@@ -32,12 +34,15 @@ Developer FULLSTACK / DevOps at Kwote
 Developer on assignment at ITER Organization
 • Designing, developing, and maintaining ITER's intranet and network of websites
 • Configuration and deployment of on-premise solutions
+• Apache2 & IIS server setup & management
 • IT project management following the PRINCE II model
 • Unit testing / integration testing / end-to-end testing
 
 Developer FULLSTACK at Synkso
 • Designing, developing, and maintaining APIs (C# / PHP - Smarty / HTML+JS)
-• Project management
+• Development of a two-factor authentication portal (AJAX, JQuery)
+• Apache2 & IIS server setup & management
+• Project management on Atlassian suite
 
 Manager, Team Leader at CROUS
 • Managed a team of 10 individuals
@@ -56,11 +61,13 @@ Développeur Fullstack / DevOps chez Kwote
 Développeur en mission à ITER Organization
 • Conception, développement et maintenance de l'intranet et des sites web d'ITER
 • Configuration et déploiement de solutions "on premise"
+• mise en place et maintenance de serveur Apache2 & IIS
 • Gestion de projet IT selon le modèle PRINCE II
 • Réalisation de tests unitaires, d'intégration et e2e
 
 Développeur Fullstack chez Synkso
 • Conception, développement et maintenance d'API (C# / PHP - Smarty / HTML+JS)
+• mise en place et maintenance de serveur Apache2 & IIS
 • Gestion de projet
 
 Manager, chef d'équipe au CROUS
