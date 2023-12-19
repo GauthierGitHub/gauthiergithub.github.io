@@ -137,6 +137,10 @@ a:hover {
     display: inline;
 }
 
+.job-description img {
+    max-width: 100%;
+}
+
 .experience-description ul li::before {
     content: "\>";
     color: #4E749C;
