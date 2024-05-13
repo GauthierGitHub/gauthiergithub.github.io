@@ -10,20 +10,6 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/style.css">
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-    <!-- JQuery -->
-    <script src="libs/jquery-3.6.0.min.js"></script>
-    <!-- Custom js -->
-    <script src="scripts/script.js"></script>
 </head>
 
 <body class="container">
@@ -37,16 +23,14 @@
                 </div>
                 <div class="col-12">
                     <h1>Gauthier Barbet</h1>
-                    <h3>Fullstack Developer</h2>
+                    <h3>Fullstack Developer</h3>
                 </div>
             </header>
 
             <h2>Who am I ?</h2>
             <p>
-                After studying archeology and history,
-                then working in the operations of an University,
-                I successfully undertook a
-                professional retraining in application development.
+                Following academic pursuits in archaeology and history, coupled with experience in university operations
+                , I underwent successful professional retraining in application development.
             </p>
             <ul>
                 <li>38 years old</li>
@@ -55,7 +39,7 @@
                 <li>English : fluent</li>
                 <li>Spanish : notions</li>
             </ul>
-            <a href="./images/Gauthier_Barbet_resume_2023.pdf" download="Gauthier_Barbet_resume_2023.pdf">Get Pdf version</a>
+            <a onclick="saveAsPdf()" >Get Pdf version</a>
 
             <h2>Contact details</h2>
             <p>
@@ -130,25 +114,20 @@
                                 <li>MariaDB</li>
                                 <li>MongoDB</li>
                                 <li>Cypress</li>
-                                <li>Istanbul</li>
                                 <li>nyc</li>
                                 <li>Gitlab CI/CD</li>
                                 <li>Jenkins</li>
-                                <li>Agile</li>
                             </ul>
                         </div>
                     </article>
                     <div class="experience-description col-8 align-self-center">
                         <ul>
                             <li>Designing, developing, and maintaining APIs (Node.js - Angular 2+)</li>
-                            <li>Unit testing / integration testing / end-to-end testing (Cypress / Istanbuljs / nyc)
-                            </li>
+                            <li>Unit testing / integration testing / end-to-end testing (Cypress / Istanbuljs / nyc)</li>
                             <li>Involvement in optimizing the CI/CD process (Gitlab CI/CD - Jenkins)</li>
                             <li>Designing and developing a versatile BI solution for live data analysis and
                                 visualization, from all sources and various graphical representations (Express.js,
                                 Angular 2+. Front and back-end factory design pattern).</li>
-                            <li>Creating a MongoDB database for generating personalized reports viewable through the BI
-                                tool.</li>
                         </ul>
                     </div>
                 </div>
@@ -165,7 +144,6 @@
                                 <li>JQuery</li>
                                 <li>Bootstrap</li>
                                 <li>AJAX</li>
-                                <li>Shell</li>
                                 <li>PowerShell</li>
                                 <li>SQL Server</li>
                                 <li>MySQL</li>
@@ -295,9 +273,31 @@
         <p><a href="https://gitlab.com/gauthiergitlab">© Gauthier Barbet</a> 2023</p>
     </footer>
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <!-- Html2pdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
 
-    <img id="html2image" src="" />
 
+    <!-- <script src="es6-promise.auto.min.js"></script>
+    <script src="jspdf.min.js"></script>
+    <script src="html2canvas.min.js"></script>
+    <script src="html2pdf.min.js"></script> -->
+    <!-- Custom js -->
+    <script src="scripts/script.js"></script>
 
 </body>
 

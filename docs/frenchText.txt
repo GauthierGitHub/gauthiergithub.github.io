@@ -1,9 +1,11 @@
+Suite à des études universitaires en archéologie et en histoire, couplées à une expérience en fonctionnement universitaire
+, j'ai suivi avec succès une reconversion professionnelle dans le développement d'applications.
+
 Developpeur FULLSTACK / DevOps à Kwote
 • Conception, developpement et maintenance d'API (Node.js - Angular 2+)
 • Tests unitaires / tests d'intégrations / tests e2e (Cypress / Istanbuljs / nyc)
 • Implication dans l'optimisation du processus CI/CD (Gitlab CI/CD - Jenkins)
 • Conception et développement d'une solution BI polyvalente d'analyse et de visualisation de données live, toutes sources, tous graphiques (Express.js, Angular 2+. Design pattern factory front et back).
-• Création de base de données mongoDB pour la création de rapport personalisé visualizable via l'outil BI.
 
 Developpeur en mission à ITER Organization
 • Conception, developpement et maintenance de l'intranet et de la constellation de sites web d'ITER
@@ -24,12 +26,13 @@ Manager chef d'équipe au CROUS
 
 ________________________________________
 
+Following academic pursuits in archaeology and history, coupled with experience in university operations, I underwent successful professional retraining in application development.
+
 Developer FULLSTACK / DevOps at Kwote
 • Designing, developing, and maintaining APIs (Node.js - Angular 2+)
 • Unit testing / integration testing / end-to-end testing (Cypress / Istanbuljs / nyc)
 • Involvement in optimizing the CI/CD process (Gitlab CI/CD - Jenkins)
 • Designing and developing a versatile BI solution for live data analysis and visualization, from all sources and various graphical representations (Express.js, Angular 2+. Front and back-end factory design pattern).
-• Creating a MongoDB database for generating personalized reports viewable through the BI tool.
 
 Developer on assignment at ITER Organization
 • Designing, developing, and maintaining ITER's intranet and network of websites
@@ -50,27 +53,3 @@ Manager, Team Leader at CROUS
 • Organization and optimization of workstations
 
 __________________________________________
-
-Développeur Fullstack / DevOps chez Kwote
-• Conception, développement et maintenance d'API (Node.js - Angular 2+)
-• Conception et élaboration d'une solution BI polyvalente pour l'analyse et la visualisation de données en temps réel, provenant de multiples sources et présentées sous différents graphiques (Express.js, Angular 2+. Modèle de conception factory pour le front et le back-end).
-• Mise en place d'une base de données MongoDB pour la création de rapports personnalisés visibles via l'outil BI.
-• Contribution à l'optimisation du processus CI/CD (Gitlab CI/CD - Jenkins)
-• Réalisation de tests unitaires, d'intégration et e2e (Cypress / Istanbuljs / nyc)
-
-Développeur en mission à ITER Organization
-• Conception, développement et maintenance de l'intranet et des sites web d'ITER
-• Configuration et déploiement de solutions "on premise"
-• mise en place et maintenance de serveur Apache2 & IIS
-• Gestion de projet IT selon le modèle PRINCE II
-• Réalisation de tests unitaires, d'intégration et e2e
-
-Développeur Fullstack chez Synkso
-• Conception, développement et maintenance d'API (C# / PHP - Smarty / HTML+JS)
-• mise en place et maintenance de serveur Apache2 & IIS
-• Gestion de projet
-
-Manager, chef d'équipe au CROUS
-• Encadrement d'une équipe de 10 personnes
-• Gestion et suivi des stocks
-• Organisation et optimisation des postes de travail
